@@ -1,8 +1,3 @@
-SublimeBuildSystem-theos
-========================
-
-Sublime Text 2 build system for DHowett's theos iOS Makefile system.
-
 Installation
 =============
 ##Step One
