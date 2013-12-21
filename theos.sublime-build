@@ -1,19 +1,12 @@
 {
-	"path": "/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin",
-	"working_dir": "$project_path",
+	"working_dir": "C:\\cygwin64\\bin",
 	"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
 
-	"env":{
-		"THEOS_DEVICE_IP":"127.0.0.1",
-		"THEOS_DEVICE_PORT":"2222"
-	},
-
-	"cmd": ["make"],
+	"cmd": ["bash", "-li", "$packages/theos/theos_make.sh", "$project_path"],
 
 	"variants": [
-
 		{
-			"cmd": ["make", "package", "install"],
+			"cmd": ["bash", "-li", "$packages/theos/theos_make_package_install.sh", "$project_path", "127.0.0.1", "2222"],
 			"name": "Run"
 		}
 	]
