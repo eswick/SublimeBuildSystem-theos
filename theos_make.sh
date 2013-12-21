@@ -1,2 +1,2 @@
-cd "$1"
+cd `cygpath -u $1`
 make
