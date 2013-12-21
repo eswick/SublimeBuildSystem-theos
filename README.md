@@ -7,11 +7,11 @@ Change 'THEOS_DEVICE_IP' and 'THEOS_DEVICE_PORT' accordingly to match your iOS d
 ##Step Three
 Copy theos.sublime-build to Sublime's user package directory. (Sublime Text 2 -> Preferences -> Browse Packages... -> 'User' folder)
 ##Step Four
-Change your Sublime build system to 'theos'. (Tools -> Build System -> theos)
+Change your Sublime project's build system to theos. (Tools -> Build System -> theos)
 ##Step Five
-Add the root directory of your theos project to Sublime's project. (Project -> Add Folder to Project)
+Add the root directory of your theos project to your Sublime project. (Project -> Add Folder to Project)
 ##Step Six
-Save your Sublime project *inside* your theos project's root directory. (Project -> Save Project As...)
+Save your Sublime project *inside* of your theos project's root directory. (Project -> Save Project As...)
 
 Usage
 ============
