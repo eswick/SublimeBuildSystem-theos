@@ -18,3 +18,5 @@ Usage
 make: Tools -> Build (Command + B)
 
 make package install: Tools -> Run (Command + Shift + B)
+
+make clean: Command + Shift + C
